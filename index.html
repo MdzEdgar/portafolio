@@ -4,39 +4,58 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio</title>
+  <subtitle>Portafolio</subtitle>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body>
   <!-- header -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#acerca">Acerca de mi</a></li>
-        <li><a href="#habilidades">Mis habilidades</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#portafolio">Portafolio</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
+  <header class="header" id="header">
+    <nav class="nav-container">
+      <div class="nav-menu show-menu" id="nav-menu">
+        <div class="icon-menu btn-close">
+          <i class="bx bx-x"></i>
+        </div>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a class="menu-link" href="index.html">Home</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#acerca">Acerca de mi</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#habilidades">Mis habilidades</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#experiencia">Experiencia</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#portafolio">Portafolio</a></li>
+          <li class="menu-item">
+            <a class="menu-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="icon-menu btn-open">
+        <i class="bx bx-menu"></i>
+      </div>
     </nav>
-
   </header>
+<!-- perfil -->
+  <section>
+
+  </section>
 
   <!-- acerca  -->
   <section class="acerca" id="acerca">
-    <h2>Acerca de</h2>
+    <h2 class="subtitle">Acerca de</h2>
   </section>
 
   <!-- Habilidades -->
   <section class="habilidades" id="habilidades">
-    <h2>Mis Habilidades</h2>
+    <h2 class="subtitle">Mis Habilidades</h2>
   </section>
 
   <!-- experiencia -->
   <section class="experiencia" id="experiencia">
-    <h2>Experiencia</h2>
+    <h2 class="subtitle">Experiencia</h2>
   </section>
 
   <!-- portafolio -->
