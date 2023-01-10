@@ -24,9 +24,34 @@ a {
 }
 
 /** Textos **/
-.title {
-  font-family: 'Rubik Semibold';
+.titulo {
+  font-weight: 600;
   font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.subtitulo {
+  font-weight: 500;
+  font-size: 25px;
+  color: #adadad;
+  text-align: center;
+}
+
+span.subtitulo {
+  margin-top: 25px;
+  display: block;
+}
+
+.subseccion {
+  font-size: 18px;
+  color: #adadad;
+}
+
+p.subseccion {
+  text-align: center;
+  margin: 20px 20px;
+  line-height: 1.8rem;
 }
 
 /** Header **/
@@ -75,7 +100,6 @@ nav.nav-container {
 }
 
 .menu-link:hover {
-  padding: 5px 8px;
   /*background: rgb(29, 29, 77);
   border-radius: 3px;
   transition: 0.3s;*/
@@ -112,6 +136,57 @@ nav.nav-container {
     display: none;
 }
 }
+
+section {
+  text-align: center;
+  padding: 20px 10px;
+  margin: 60px 0;
+}
+
+div.foto{
+  height: 191px;
+  width: 165px;
+  background-image: url('../img/mobile-photo.png');
+  margin: 0 auto;
+}
+
+h1.titulo{
+  margin-bottom: 10px;
+}
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-media {
+  display: grid;
+  place-items: center;
+  height: 100px;
+  width: 100px;
+}
+
+.social-media img{
+  width: 60px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+  .parent span {
+    display: block;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div2 { grid-area: 2 / 1 / 3 / 2; }
+  .div3 { grid-area: 3 / 1 / 4 / 2; }
+  .div4 { grid-area: 4 / 1 / 5 / 2; }
+  
 
 @media screen and (min-width: 1024px) { 
   .menu-list {
