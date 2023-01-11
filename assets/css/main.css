@@ -361,7 +361,6 @@ color:#adadad
 }
 
 @media (min-width: 1024px) {
-
   .main{
     width: 980px;
     margin: 0 auto;
@@ -395,6 +394,14 @@ color:#adadad
   margin: 0 auto;
   }
 
+  .social-media {
+    width: 100px;
+    height: 100px;
+  }
+
+  .social-media img{
+    width: 80px;
+  }
   .portafolio-container{
     flex-direction: row;
     column-gap: 1rem;
