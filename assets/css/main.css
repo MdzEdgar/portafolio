@@ -23,6 +23,8 @@ a {
   color: #fff;
 }
 
+h2{margin-bottom: 20px;}
+
 /** Textos **/
 .titulo {
   font-weight: 600;
@@ -139,8 +141,8 @@ nav.nav-container {
 
 section {
   text-align: center;
-  padding: 20px 10px;
-  margin: 60px 0;
+  padding-top: 95px;
+  margin: 0 0;
 }
 
 div.foto{
@@ -162,12 +164,12 @@ h1.titulo{
 .social-media {
   display: grid;
   place-items: center;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .social-media img{
-  width: 60px;
+  width: 45px;
 }
 
 /** Habilidades **/
