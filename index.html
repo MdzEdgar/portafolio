@@ -13,156 +13,172 @@
 </head>
 <body>
   <!-- header -->
-  <header class="header" id="header">
-    <nav class="nav-container">
-      <div class="nav-menu show-menu" id="nav-menu">
-        <div class="icon-menu btn-close">
-          <i class="bx bx-x"></i>
+  <header class="header">
+    <nav class="navbar">
+      <!--<a href="#" class="navbar__logo">
+        <span class="logo">
+          Logo
+        </span>
+      </a>-->
+
+      <div id="navMenu" class="navbar__menu">
+        <div id="btnClose" class="btn--close">
+          <i class="las la-times"></i>
         </div>
-        <ul class="menu-list">
-          <li class="menu-item">
-            <a class="menu-link" href="index.html">Home</a></li>
-          <li class="menu-item">
-            <a class="menu-link" href="#acerca">Acerca de mi</a></li>
-          <li class="menu-item">
-            <a class="menu-link" href="#habilidades">Mis habilidades</a></li>
-          <li class="menu-item">
-            <a class="menu-link" href="#experiencia">Experiencia</a></li>
-          <li class="menu-item">
-            <a class="menu-link" href="#portafolio">Portafolio</a></li>
-          <li class="menu-item">
-            <a class="menu-link" href="#contacto">Contacto</a></li>
+
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Acerca de mí</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Mis habilidades</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Experiencia</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Portafolio</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Contacto</a>
+          </li>
         </ul>
       </div>
-      <div class="icon-menu btn-open">
-        <i class="bx bx-menu"></i>
+      <div id="btnOpen" class="btn--toggle">
+        <i class="las la-bars"></i></button>
       </div>
     </nav>
   </header>
-<!-- perfil -->
-  <section class="perfil">
-    <div class="foto">
-    </div>
-    <span class="subtitulo">Hola, soy Edgar</span>
-    <h1 class="titulo">Diseñador y desarrollador web</h1>
-    <div class="social-icons">
-      <div class="social-media">
-        <a class="social-image" href="#">
-          <img src="assets/img/linkedin.svg" alt="Linkedin"></a>
-      </div>
-      <div class="social-media">
-        <a class="social-image" href="#">
-          <img src="assets/img/instagram.svg" alt="Instagram"></a>
-      </div>
-      <div class="social-media">
-        <a class="social-image" href="#">
-          <img src="assets/img/twitter.svg" alt="Twitter"></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- acerca  -->
-  <section class="acerca" id="acerca">
-    <h2 class="titulo">Acerca de mi</h2>
-    <p class="subseccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio error sunt facilis mollitia quidem aut, laborum minima voluptates libero inventore pariatur, laudantium at perspiciatis ex. Officia voluptatem provident numquam repellendus.</p>
-  </section>
-
-  <!-- Habilidades -->
-  <section class="habilidades" id="habilidades">
-    <h2 class="titulo">Mis Habilidades</h2>
-    <div class="habilidades-container">
-      <div class="habilidad">
-        <div class="skill-img"><img src="assets/img/mobile.svg" alt=""></div>
-        <p>Mobile app design</p>
-      </div>
-      <div class="habilidad">
-        <div class="skill-img"><img src="assets/img/motion.svg" alt=""></div>
-        <p>Motion Design</p>
-      </div>
-      <div class="habilidad">
-        <div class="skill-img"><img src="assets/img/material.svg" alt=""></div>
-        <p>Creación de sistemas de diseño</p>
-      </div>
-      <div class="habilidad">
-        <div class="skill-img"><img src="assets/img/web.svg" alt=""></div>
-        <p>Desarrollo Web</p>
-      </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- experiencia -->
-  <section class="experiencia" id="experiencia">
-    <h2 class="titulo">Experiencia</h2>
-    <div class="experiencia-container">
-      <div class="fecha">
-        2016 - 2018
-      </div>
-      <div class="posicion">
-        Visual Designer
-      </div>
-      <div class="empresa">
-        Wizeline
-      </div>
-      <div class="linea"></div>
-      <div class="fecha">
-        2018 - 2019
-      </div>
-      <div class="posicion">
-        Product Designer
-      </div>
-      <div class="empresa">
-        Microsoft
-      </div>
-      <div class="linea"></div>
-      <div class="fecha">
-        2019 - 2021
-      </div>
-      <div class="posicion">
-        UI Engineer
-      </div>
-      <div class="empresa">
-        Google
-      </div>
-    </div>
-  </section>
-
-  <!-- portafolio -->
-  <section class="portafolio" id="portafolio">
-    <h2 class="titulo">Portafolio</h2>
-    <div class="portafolio-container">
-      <div class="screenshoot">
-        <img src="assets/img/ejemplo1.png" alt="">
-      </div>
-      <div class="screenshoot">
-        <img src="assets/img/ejemplo2.png" alt="">
-      </div>
-      <div class="screenshoot">
-        <img src="assets/img/ejemplo3.png" alt="">
-      </div>
-    </div>
-  </section>
   
-  <!-- contacto -->
-  <section class="contacto" id="contacto">
-    <h2 class="titulo">Contacto</h2>
-    <div class="contacto-container">
-      <div class="item">
-        <div class="image">
-          <img src="assets/img/phone.svg" alt="Celular">
-        </div>
-        <p>Número celular</p>
-        <p>528682503757</p>
+  <main class="main">
+    <!-- perfil -->
+    <section class="perfil">
+      <div class="foto">
       </div>
-      <div class="item">
-        <div class="image">
-          <img src="assets/img/mail1.svg" alt="Mail">
+      <span class="subtitulo">Hola, soy Edgar</span>
+      <h1 class="titulo">Diseñador y desarrollador web</h1>
+      <div class="social-icons">
+        <div class="social-media">
+          <a class="social-image" href="#">
+            <img src="assets/img/linkedin.svg" alt="Linkedin"></a>
         </div>
-        <p>Email</p>
-        <p>mdzredgar@gmail.com</p>
+        <div class="social-media">
+          <a class="social-image" href="#">
+            <img src="assets/img/instagram.svg" alt="Instagram"></a>
+        </div>
+        <div class="social-media">
+          <a class="social-image" href="#">
+            <img src="assets/img/twitter.svg" alt="Twitter"></a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- acerca  -->
+    <section class="acerca" id="acerca">
+      <h2 class="titulo">Acerca de mi</h2>
+      <p class="subseccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio error sunt facilis mollitia quidem aut, laborum minima voluptates libero inventore pariatur, laudantium at perspiciatis ex. Officia voluptatem provident numquam repellendus.</p>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="habilidades" id="habilidades">
+      <h2 class="titulo">Mis Habilidades</h2>
+      <div class="habilidades-container">
+        <div class="habilidad">
+          <div class="skill-img"><img src="assets/img/mobile.svg" alt=""></div>
+          <p>Mobile app design</p>
+        </div>
+        <div class="habilidad">
+          <div class="skill-img"><img src="assets/img/motion.svg" alt=""></div>
+          <p>Motion Design</p>
+        </div>
+        <div class="habilidad">
+          <div class="skill-img"><img src="assets/img/material.svg" alt=""></div>
+          <p>Creación de sistemas de diseño</p>
+        </div>
+        <div class="habilidad">
+          <div class="skill-img"><img src="assets/img/web.svg" alt=""></div>
+          <p>Desarrollo Web</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experiencia -->
+    <section class="experiencia" id="experiencia">
+      <h2 class="titulo">Experiencia</h2>
+      <div class="experiencia-container">
+        <div class="fecha">
+          2016 - 2018
+        </div>
+        <div class="posicion">
+          Visual Designer
+        </div>
+        <div class="empresa">
+          Wizeline
+        </div>
+        <div class="linea"></div>
+        <div class="fecha">
+          2018 - 2019
+        </div>
+        <div class="posicion">
+          Product Designer
+        </div>
+        <div class="empresa">
+          Microsoft
+        </div>
+        <div class="linea"></div>
+        <div class="fecha">
+          2019 - 2021
+        </div>
+        <div class="posicion">
+          UI Engineer
+        </div>
+        <div class="empresa">
+          Google
+        </div>
+      </div>
+    </section>
+
+    <!-- portafolio -->
+    <section class="portafolio" id="portafolio">
+      <h2 class="titulo">Portafolio</h2>
+      <div class="portafolio-container">
+        <div class="screenshoot">
+          <img src="assets/img/ejemplo1.png" alt="">
+        </div>
+        <div class="screenshoot">
+          <img src="assets/img/ejemplo2.png" alt="">
+        </div>
+        <div class="screenshoot">
+          <img src="assets/img/ejemplo3.png" alt="">
+        </div>
+      </div>
+    </section>
+    
+    <!-- contacto -->
+    <section class="contacto" id="contacto">
+      <h2 class="titulo">Contacto</h2>
+      <div class="contacto-container">
+        <div class="item">
+          <div class="image">
+            <img src="assets/img/phone.svg" alt="Celular">
+          </div>
+          <p>Número celular</p>
+          <p>528682503757</p>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="assets/img/mail1.svg" alt="Mail">
+          </div>
+          <p>Email</p>
+          <p>mdzredgar@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer>

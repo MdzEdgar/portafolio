@@ -1,18 +1,17 @@
-const header = document.getElementById('header')
-const menu = document.getElementById('nav-menu')
+const btnOpen = document.getElementById('btnOpen')
+const navMenu = document.getElementById('navMenu')
+const btnClose = document.getElementById('btnClose')
 
-header.addEventListener('click', e => {
-    const target = e.target
-    if (e.target.closest('.btn-open')) {
-        menu.classList.add('show_menu')
-    }
-    
-    if (e.target.closest('.btn-close')) {
-        menu.classList.remove('show_menu')
-    }
+btnOpen.onclick = () => {
+  navMenu.classList.toggle('show--menu')
+}
 
-    if (e.target.closest('.menu-link')) {
-        menu.classList.remove('show_menu')
-    }
-
+document.querySelector('.navbar__list').addEventListener('click', (e) => {
+  if (e.target.classList.contains('navbar__link')) {
+    navMenu.classList.remove('show--menu')
+  }
 })
+
+btnClose.onclick = () => {
+  navMenu.classList.remove('show--menu')
+}
