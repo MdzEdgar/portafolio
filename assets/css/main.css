@@ -186,8 +186,19 @@ h1.titulo{
   .div2 { grid-area: 2 / 1 / 3 / 2; }
   .div3 { grid-area: 3 / 1 / 4 / 2; }
   .div4 { grid-area: 4 / 1 / 5 / 2; }
+/*** Portafolio ***/
+.portafolio-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
   
-
+}
+.screenshoot img{
+  width: 100%;
+  height: auto;
+}
+  
+/*** Conctacto ***/
 .contacto-container {
   padding: 40px 0;
   display: grid;
@@ -211,6 +222,7 @@ h1.titulo{
 .item p:nth-child(2){
 margin: 10px 0;
 font-weight: 500;
+font-size: 1.2rem;
 color:#adadad
 }
 .item p:nth-child(3){
