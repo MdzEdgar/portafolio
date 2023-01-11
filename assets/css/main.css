@@ -188,6 +188,37 @@ h1.titulo{
   .div4 { grid-area: 4 / 1 / 5 / 2; }
   
 
+.contacto-container {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.item .image{
+  border: solid 2px #adadad;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+
+}
+.item img {
+  position:relative;
+  bottom: -10px;
+  width: 55px;
+}
+
+.item p:nth-child(2){
+margin: 10px 0;
+font-weight: 500;
+color:#adadad
+}
+.item p:nth-child(3){
+  margin: 10px 0;
+  font-size: 14px;
+  color:#adadad
+  }
+
 @media screen and (min-width: 1024px) { 
   .menu-list {
     font-size: 1.5rem;
