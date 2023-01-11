@@ -310,6 +310,10 @@ color:#adadad
   color:#adadad
   }
 
+.footer > p > i{
+  color: red;
+}
+
 /** Breakpoints **/
 @media (max-width: 320px) {
   .navbar__menu {
